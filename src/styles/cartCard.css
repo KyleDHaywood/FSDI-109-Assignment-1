@@ -1,0 +1,14 @@
+* {
+  margin: none;
+  padding: none;
+}
+.cartCard {
+  display: flex;
+  height: 100px;
+  border: solid 2px black;
+  justify-content: space-between;
+}
+
+.cartCard img {
+  height: 95px;
+}

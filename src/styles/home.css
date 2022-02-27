@@ -1,0 +1,28 @@
+.home {
+  min-width: 100%;
+  min-height: 800px;
+}
+.mainContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+.wrapper {
+  display: flex;
+  height: 700px;
+  width: 180px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.wrapper img {
+  zoom: 80%;
+}
+.odd {
+  padding-bottom: 200px;
+}
+.even {
+  padding-top: 200px;
+}

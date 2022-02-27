@@ -1,0 +1,18 @@
+.catalog {
+  background-color: cadetblue;
+  min-height: 300px;
+}
+
+.catalog .productList {
+  justify-content: space-around;
+}
+h2 {
+  text-align: center;
+}
+.main_grid {
+  width: 1570px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 110px;
+  margin: 45px auto;
+}
