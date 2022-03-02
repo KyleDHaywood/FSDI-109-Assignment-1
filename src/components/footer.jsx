@@ -5,11 +5,11 @@
 const Footer = () => {
   return (
     <div className="footer">
-      <footer className="bg-light text-black pt-5 pb-4" id="footer-info">
+      <footer className="bg-dark text-light pt-5 pb-4" id="footer-info">
         <div className="container text-center text-md-left">
           <div className="row text-center text-md-left">
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
+              <h5 className="text-uppercase mb-4 font-weight-bold text-info">
                 Company Name
               </h5>
               <p>
@@ -20,62 +20,62 @@ const Footer = () => {
               </p>
             </div>
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
+              <h5 className="text-uppercase mb-4 font-weight-bold text-info">
                 Services
               </h5>
               <p>
-                <a href="app.js" className="text-black">
+                <a href="app.js" className="text-white">
                   Vendors
                 </a>
               </p>
               <p>
-                <a href="App.js" className="text-black">
+                <a href="App.js" className="text-white">
                   Dates
                 </a>
               </p>
               <p>
-                <a href="App.js" className="text-black">
+                <a href="App.js" className="text-white">
                   Fruits
                 </a>
               </p>
               <p>
-                <a href="App.js" className="text-black">
+                <a href="App.js" className="text-white">
                   Vegetables
                 </a>
               </p>
               <p>
-                <a href="App.js" className="text-black">
+                <a href="App.js" className="text-white">
                   Staples
                 </a>
               </p>
             </div>
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
+              <h5 className="text-uppercase mb-4 font-weight-bold text-info">
                 Useful Links
               </h5>
               <p>
-                <a href="App.js" className="text-black">
+                <a href="App.js" className="text-white">
                   Your Account
                 </a>
               </p>
               <p>
-                <a href="App.js" className="text-black">
+                <a href="App.js" className="text-white">
                   Catering
                 </a>
               </p>
               <p>
-                <a href="App.js" className="text-black">
+                <a href="App.js" className="text-white">
                   Become an Affiliate
                 </a>
               </p>
               <p>
-                <a href="App.js" className="text-black">
+                <a href="App.js" className="text-white">
                   Help
                 </a>
               </p>
             </div>
-            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h5 className="text-uppercase mb-4 font-weight-bold text-warning">
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 row-align-items-center">
+              <h5 className="text-uppercase mb-4 font-weight-bold text-info">
                 Contacts
               </h5>
               <p>
@@ -83,7 +83,8 @@ const Footer = () => {
                 California, 93944
               </p>
               <p>
-                <i className="fas fa-envelope mr-3"></i> TheFashionPet@gmail.com
+                <i className="fas fa-envelope mr-3 "></i>{" "}
+                HeavyIndustriesWargaming@gmail.com
               </p>
               <p>
                 <i className="fas fa-phone mr-3"></i> +1 3168548988
@@ -94,12 +95,16 @@ const Footer = () => {
             </div>
           </div>
           <hr className="mb-4" />
+          <div className="col-md-1 col-lg-1"></div>
           <div className="row-align-items-center">
             <div className="col-md-7 col-lg-8">
+              <br></br>
+              <br></br>
+
               <p>
                 Copyright
                 <i className="fas fa-copyright"></i> 2021 All Right Reserved by:
-                <a href="App.js" className="text-warning">
+                <a href="App.js" className="text-info">
                   <strong>KyleStudio.tech</strong>
                 </a>
               </p>

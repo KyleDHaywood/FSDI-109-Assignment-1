@@ -4,8 +4,14 @@
 }
 .mainContainer {
   display: flex;
+  align-content: flex-end;
+  width: 100%;
+  /* padding-right: 100px; */
+}
+.wrapperContainer {
+  background-color: white;
+  display: flex;
   justify-content: flex-end;
-  align-content: center;
 }
 .wrapper {
   display: flex;
@@ -18,11 +24,32 @@
   margin-right: 5px;
 }
 .wrapper img {
+  height: 700px;
   zoom: 80%;
 }
 .odd {
-  padding-bottom: 200px;
+  margin-bottom: 150px;
+  padding-top: 30px;
 }
 .even {
-  padding-top: 200px;
+  margin-top: 200px;
+  padding-bottom: 30px;
+}
+/*  */
+/* INDIVIDUAL STYLE  */
+/*  */
+
+.cat-six img {
+  padding-right: 110px;
+}
+.ten {
+  margin-top: 100px;
+  width: 200px;
+  /* margin: none;
+  padding: none; */
+}
+.cat-ten img {
+  /* position: center right; */
+  height: 1000px;
+  padding-left: 300px;
 }

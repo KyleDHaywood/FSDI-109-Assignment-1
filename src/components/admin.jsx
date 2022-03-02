@@ -94,7 +94,7 @@ const Admin = () => {
             <div>
               <label className="form-label">Image</label>
               <input
-                type="number"
+                type="text"
                 className="form-control"
                 name="image"
                 onChange={prodChange}
@@ -103,16 +103,16 @@ const Admin = () => {
             <div>
               <label className="form-label">Description</label>
               <input
-                type="number"
+                type="text"
                 className="form-control"
-                name="descrition"
+                name="description"
                 onChange={prodChange}
               ></input>
             </div>
             <div>
               <label className="form-label">Category</label>
               <input
-                type="number"
+                type="text"
                 className="form-control"
                 name="category"
                 onChange={prodChange}

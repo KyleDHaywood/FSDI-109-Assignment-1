@@ -7,18 +7,18 @@ import ToDo from "./toDo";
 const Catalog = () => {
   const [products, setProducts] = useState([]);
   // CREAT LOAD DATA FUNCTION
-  const loadData = () => {
+  const loadData = async () => {
     console.log("component loaded");
 
     let service = new DataService();
-    let data = service.getCatalog();
+    let data = await service.getCatalog();
     setProducts(data);
   };
 
   // WHEN THE COMPONENT LOADS
   useEffect(() => {
     loadData();
-  });
+  }, []);
   //
   //
   // CREAT A A STATE VARIABLE (PRODUCTS)

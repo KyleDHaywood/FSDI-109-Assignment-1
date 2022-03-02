@@ -1,80 +1,86 @@
 import "../styles/home.css";
 import { Link } from "react-router-dom";
+import Sidebar from "./sidebar";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="mainContainer">
-        <div className="wrapper odd">
-          <div className="cat-one">
-            <Link to="catalog">
-              <img src="./img/planeCrash.jpg" alt=""></img>
-            </Link>
+        <Sidebar> </Sidebar>
+        <div className="wrapperContainer">
+          <div className="wrapper odd">
+            <div className="cat-one">
+              <Link to="catalog">
+                <img src="./img/planeCrash.jpg" alt=""></img>
+              </Link>
+            </div>
+          </div>
+          <div className="wrapper even">
+            <div className="cat-two ">
+              <Link to="catalog">
+                <img src="./img/grimdark.jpg" alt=""></img>
+              </Link>
+            </div>
+          </div>
+          <div className="wrapper odd">
+            <div className="cat-three ">
+              <Link to="catalog">
+                <img src="./img/terrain.jpg" alt=""></img>
+              </Link>
+            </div>
+          </div>
+
+          <div className="wrapper even">
+            <div className="cat-four ">
+              <Link to="catalog">
+                <img src="./img/military.jpg" alt=""></img>
+              </Link>
+            </div>
+          </div>
+          <div className="wrapper odd">
+            <div className="cat-five ">
+              <Link to="catalog">
+                <img src="./img/railroadStation.jpg" alt=""></img>
+              </Link>
+            </div>
+          </div>
+          <div className="wrapper even">
+            <div className="cat-six ">
+              <Link to="catalog">
+                <img src="./img/game-color-vallejo-gory-red.jpg" alt=""></img>
+              </Link>
+            </div>
+          </div>
+          <div className="wrapper odd">
+            <div className="cat-seven ">
+              <Link to="catalog">
+                <img src="./img/paintBrushes.jpg" alt=""></img>
+              </Link>
+            </div>
+          </div>
+          <div className="wrapper even">
+            <div className="cat-eight ">
+              <Link to="catalog">
+                <img src="./img/dice.jpg" alt=""></img>
+              </Link>
+            </div>
+          </div>
+          <div className="wrapper odd">
+            <div className="cat-nine ">
+              <Link to="catalog">
+                <img src="./img/superGlue.jpg" alt=""></img>
+              </Link>
+            </div>
+          </div>
+          <div className="wrapper even ten">
+            <div className="cat-ten ">
+              <Link to="catalog">
+                <img src="./img/gamingMat.jpg" alt=""></img>
+              </Link>
+            </div>
           </div>
         </div>
-        <div className="wrapper">
-          <div className="cat-two even">
-            <Link to="catalog">
-              <img src="./img/grimdark.jpg" alt=""></img>
-            </Link>
-          </div>
-        </div>
-        <div className="wrapper">
-          <div className="cat-three odd">
-            <Link to="catalog">
-              <img src="./img/terrain.jpg" alt=""></img>
-            </Link>
-          </div>
-        </div>
-        <div className="wrapper">
-          <div className="cat-four even">
-            <Link to="catalog">
-              <img src="./img/military.jpg" alt=""></img>
-            </Link>
-          </div>
-        </div>
-        <div className="wrapper">
-          <div className="cat-five odd">
-            <Link to="catalog">
-              <img src="./img/railroadStation.jpg" alt=""></img>
-            </Link>
-          </div>
-        </div>
-        <div className="wrapper">
-          <div className="cat-six even">
-            <Link to="catalog">
-              <img src="./img/game-color-vallejo-pale-flesh.jpg" alt=""></img>
-            </Link>
-          </div>
-        </div>
-        <div className="wrapper">
-          <div className="cat-seven odd">
-            <Link to="catalog">
-              <img src="./img/paintBrushes.jpg" alt=""></img>
-            </Link>
-          </div>
-        </div>
-        <div className="wrapper">
-          <div className="cat-eight even">
-            <Link to="catalog">
-              <img src="./img/dice.jpg" alt=""></img>
-            </Link>
-          </div>
-        </div>
-        <div className="wrapper">
-          <div className="cat-nine odd">
-            <Link to="catalog">
-              <img src="./img/superGlue.jpg" alt=""></img>
-            </Link>
-          </div>
-        </div>
-        <div className="wrapper">
-          <div className="cat-ten even">
-            <Link to="catalog">
-              <img src="./img/gamingMat.jpg" alt=""></img>
-            </Link>
-          </div>
-        </div>
+        <Sidebar> </Sidebar>
       </div>
     </div>
   );

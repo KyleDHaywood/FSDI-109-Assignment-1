@@ -33,10 +33,7 @@ const Product = (props) => {
     <div className="productCard product">
       <img className="imgCircle" src={"./img/" + props.data.image} alt=""></img>
       <h3>{props.data.title}</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro
-        ratione natus!
-      </p>
+      <p>{props.data.description}</p>
       <p>{props.data.price.toFixed(2)}</p>
       <QuantityPicker onChange={onQuantityChange}></QuantityPicker>
       <label>Total Price: {getTotal()}</label>
